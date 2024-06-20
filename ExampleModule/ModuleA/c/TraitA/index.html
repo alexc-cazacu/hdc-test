@@ -3,26 +3,43 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/assets/logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Documentation of trait trait TraitA">
   <title>trait TraitA</title>
-  <link rel="stylesheet" crossorigin href="/assets/index-u2hGlV48.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+      type="text/css"
+      crossorigin />
+  </noscript>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="preload"
+      type="text/css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      crossorigin />
+  <link rel="stylesheet" href="/assets/app.css">
 </head>
 
 <body class="page">
 
   <div class="page-header">
     <div class="header-title">
-      <img src="/assets/logo.svg">
-      <h3>Documentation</h3>
+      <img src="/assets/logo.svg" width="44" height="41" alt="Hylo Logo">
+      <h1>Documentation</h1>
     </div>
 
     <div class="header-breadcrumb">
-        <a href="/">Documentation</a>
-        <a href="/ExampleModule/index.html">ExampleModule</a>
-        <a href="/ExampleModule/ModuleA/index.html">ModuleA</a>
-        <a href="/ExampleModule/ModuleA/c/index.html">c.hylo</a>
-        <a href="/ExampleModule/ModuleA/c/TraitA/index.html">trait TraitA</a>
+      <a href="/">Documentation</a>
+      <a href="/ExampleModule/index.html">ExampleModule</a>
+      <a href="/ExampleModule/ModuleA/index.html">ModuleA</a>
+      <a href="/ExampleModule/ModuleA/c/index.html">c.hylo</a>
+      <a href="/ExampleModule/ModuleA/c/TraitA/index.html">trait TraitA</a>
     </div>
   </div>
 
@@ -32,7 +49,8 @@
         <aside class="page-tree">
           <div class="sidebar-search-cont">
             <!-- Only show search if JS is enabled -->
-            <input type="text" id="sidebar-search" name="search" placeholder="Press   /   for Search" style="display: none">
+            <input type="text" id="sidebar-search" name="search" placeholder="Press   /   for Search"
+              style="display: none">
             <script>document.getElementById("sidebar-search").style.display = 'block'</script>
           </div>
 
@@ -40,7 +58,7 @@
           <div id="navigation-tree-container">
             <ul>
               <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry folder" href="/ExampleModule/index.html">
         <div class="arrow"></div>
@@ -51,7 +69,81 @@
 
     <ul>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
+
+    <a class="nav-entry folder" href="/ExampleModule/ModuleC/index.html">
+        <div class="arrow"></div>
+        <div class="icon"></div>
+        <span>ModuleC</span>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+    <ul>
+<li>
+    <input type="checkbox" checked aria-label="Expanded">
+
+    <a class="nav-entry source-file" href="/ExampleModule/ModuleC/myFile/index.html">
+        <div class="arrow"></div>
+        <div class="icon"></div>
+        <span>myFile.hylo</span>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+    <ul>
+<li>
+    <input type="checkbox" checked aria-label="Expanded">
+
+    <a class="nav-entry symbol" href="/ExampleModule/ModuleC/myFile/Vector2/index.html">
+        <div class="arrow"></div>
+        <code class="inline"><pre><span class="keyword">type</span> <span class="name">Vector2</span></pre></code>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+    <ul>
+<li>
+
+    <a class="nav-entry symbol" href="/ExampleModule/ModuleC/myFile/Vector2/x/index.html">
+        <div class="arrow"></div>
+        <code class="inline"><pre><span class="keyword">var</span> <span class="name">x</span></pre></code>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+</li>
+<li>
+
+    <a class="nav-entry symbol" href="/ExampleModule/ModuleC/myFile/Vector2/y/index.html">
+        <div class="arrow"></div>
+        <code class="inline"><pre><span class="keyword">var</span> <span class="name">y</span></pre></code>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+</li>
+<li>
+
+    <a class="nav-entry symbol" href="/ExampleModule/ModuleC/myFile/Vector2/init()/index.html">
+        <div class="arrow"></div>
+        <code class="inline"><pre><span class="keyword">init</span><span class="name">()</span></pre></code>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+</li>
+<li>
+
+    <a class="nav-entry symbol" href="/ExampleModule/ModuleC/myFile/Vector2/offset_let(by%EA%9E%89)/index.html">
+        <div class="arrow"></div>
+        <code class="inline"><pre><span class="keyword">fun</span> <span class="name">offset_let(by:)</span></pre></code>
+    </a>
+    <!-- <a href="#" class="go-to-location" title="Open source location"></a> unsupported -->
+
+</li>
+    </ul>
+</li>
+    </ul>
+</li>
+    </ul>
+</li>
+<li>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry folder" href="/ExampleModule/ModuleB/index.html">
         <div class="arrow"></div>
@@ -62,7 +154,7 @@
 
     <ul>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry folder" href="/ExampleModule/ModuleB/Subfolder/index.html">
         <div class="arrow"></div>
@@ -73,7 +165,7 @@
 
     <ul>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry source-file" href="/ExampleModule/ModuleB/Subfolder/child/index.html">
         <div class="arrow"></div>
@@ -84,7 +176,7 @@
 
     <ul>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry symbol" href="/ExampleModule/ModuleB/Subfolder/child/MyType/index.html">
         <div class="arrow"></div>
@@ -212,7 +304,7 @@
     </ul>
 </li>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry folder" href="/ExampleModule/ModuleA/index.html">
         <div class="arrow"></div>
@@ -233,7 +325,7 @@
 
 </li>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry source-file" href="/ExampleModule/ModuleA/c/index.html">
         <div class="arrow"></div>
@@ -262,7 +354,7 @@
 
 </li>
 <li>
-    <input type="checkbox" checked>
+    <input type="checkbox" checked aria-label="Expanded">
 
     <a class="nav-entry symbol" href="/ExampleModule/ModuleA/c/MyType/index.html">
         <div class="arrow"></div>
@@ -447,7 +539,7 @@
     </div>
   </div>
   </div>
-  <script type="module" crossorigin src="/assets/index-C0BD6_x-.js"></script>
+  <script type="module" crossorigin src="/assets/app.js"></script>
 </body>
 
 </html>
